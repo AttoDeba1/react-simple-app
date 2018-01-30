@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+       "env": { "jquery" : true  }
+    },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "app/",
+  "devDependencies": {},
+  "author": "@Atto_Deba",
+  "license": "ISC"
+}
